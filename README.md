@@ -1,4 +1,4 @@
-# Traveling Salesperson (Data Structures Project)
+# TSP Heuristics
 
 ## Overview
 This project implements a linked-list–based solution to the **Traveling Salesperson Problem (TSP)** as part of my Data Structures course. The TSP asks: given *N* points on a plane, how can a salesperson visit all of them (and return home) while minimizing total travel distance? Finding the optimal solution is intractable for large *N*, but heuristics provide practical approximations.
@@ -47,7 +47,7 @@ The heuristics compare tour quality against insertion in the original input orde
 javac -d out src/*.java
 java -cp out TSPClientDriver
 ```
-By default the driver runs on data/tsp1000.txt. To switch to larger datasets (e.g., tsp1000.txt), edit:
+By default the driver runs on data/tsp1000.txt. To use another supplied dataset, edit:
 ```
 private static final String file = "data/tsp1000.txt";
 ```
