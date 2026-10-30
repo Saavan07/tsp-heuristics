@@ -75,7 +75,7 @@ When I revisited the project on October 13, 2026, I reproduced these distances u
 - **Insert Nearest**: O(N²) : for each point, scan the current tour to find the nearest neighbor.
 - **Insert Smallest**: O(N²) : for each point, test insertion between every pair of nodes to find the minimal delta.
 
-The table above was reproduced with OpenJDK 17 on October 13, 2026 using the included datasets. Runtime depends on the machine and input; no timing guarantee is made.
+These results used OpenJDK 17 and the included datasets. Runtime depends on the machine and input.
 
 ---
 
