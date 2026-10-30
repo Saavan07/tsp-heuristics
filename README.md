@@ -1,9 +1,9 @@
 # TSP Heuristics
 
 ## Overview
-This project implements a linked-list–based solution to the **Traveling Salesperson Problem (TSP)** as part of my Data Structures course. The TSP asks: given *N* points on a plane, how can a salesperson visit all of them (and return home) while minimizing total travel distance? Finding the optimal solution is intractable for large *N*, but heuristics provide practical approximations.
+I worked on this project for my Data Structures course, using a linked list to explore heuristics for the **Traveling Salesperson Problem (TSP)**. The TSP asks: given *N* points on a plane, how can a salesperson visit all of them (and return home) while minimizing total travel distance? Finding the optimal solution is intractable for large *N*, but heuristics provide practical approximations.
 
-Our implementation supports two greedy heuristics:
+The implementation supports two greedy heuristics:
 - **Nearest Neighbor Insertion**: insert each new point after the point in the tour it is closest to.
 - **Smallest Increase Insertion**: insert each new point where it causes the least increase in total tour distance.
 
@@ -66,7 +66,7 @@ On the 1,000-point dataset (`tsp1000.txt`):
 - **Insert Nearest**: 27,868.71
 - **Insert Smallest**: 17,265.63
 
-These distances were reproduced from the checked-in implementation and datasets on October 13, 2026. The GUI was compiled but not interactively verified during this audit.
+When I revisited the project on October 13, 2026, I reproduced these distances using the checked-in code and datasets. The GUI compiled, but I did not check it interactively during that pass.
 
 ---
 
